@@ -146,7 +146,8 @@ if (addAB > sideC && addBC > sideA && addAC > sideB) {
     console.log("es equilatero")
   }else if (sideA===sideB || sideB===sideC || sideA===sideC){
     console.log("es isoceles")
-  }else {console.log ("es escaleno")}
+  }else { console.log ("es escaleno")
+ }
   powSideA = Math.pow(sideA, 2)
   powSideB = Math.pow(sideB, 2)
   powSideC = Math.pow(sideC, 2)
